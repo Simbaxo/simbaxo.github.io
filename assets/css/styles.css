@@ -1,0 +1,60 @@
+/* GENERAL STYLES */
+
+html {
+  font: normal normal normal 1rem/1.6 'Nunito', -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #2d2d2d;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+}
+
+a {
+  color: #33C7EF;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* NAV STYLES */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1040px;
+  margin: 0 auto;
+  height: 80px;
+  font-size: 1.1rem;
+}
+
+.brand a {
+  font-weight: 400;
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+.site-navigation {
+  height: 80px;
+  padding: 0 1rem;
+  border-bottom: 1px solid #efefef;
+  font-family: 'Nunito';
+}
+
+.site-navigation .menu a {
+  color: #888;
+  font-weight: 400;
+  margin: 0 2px;
+  padding: 1rem;
+}
+
+.site-navigation .menu a:hover {
+  text-decoration: none;
+  color: #111;
+}
