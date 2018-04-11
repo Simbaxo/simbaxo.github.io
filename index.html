@@ -23,9 +23,9 @@
         </a>
       </div>
       <div class="menu">
-        <a href="#">Experience</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+        <a href="#Ex">Experience</a>
+        <a href="#Work">Portfolio</a>
+        <a href="#Reach">Contact</a>
       </div>
     </div>
   </nav>
@@ -43,14 +43,161 @@
       </div>
       <div class="code">
         <pre><code class="language-js">{
-        "name": "Andres Mena",
-        "occupation": "Software Engineer",
-        "available_for_hire": true  
-        }</code></pre>
+  "name": "Andres Mena",
+  "occupation": "Full Stack Developer",
+  "available_for_hire:" true
+}</code></pre>
       </div>
     </div>
   </main>
 
+  <section class="section-bg">
+    <div class="container">
+      <header class="section-header">
+        <h1>Technical Skills</h1>
+        <p>This is my favorite tech stack.</p>
+      </header>
+      <div class="flex wrap skills">
+        <div class="card">
+          <img src="assets/img/html.png" alt="">
+          <h2>HTML</h2>
+        </div>
+        <div class="card">
+          <img src="assets/img/css.png" alt="">
+          <h2>CSS</h2>
+        </div>
+        <div class="card">
+          <img src="assets/img/js.png" alt="">
+          <h2>JavaScript</h2>
+        </div>
+        <div class="card">
+          <img src="assets/img/node.png" alt="">
+          <h2>Node.js</h2>
+        </div>
+        <div class="card">
+          <img src="assets/img/react.png" alt="">
+          <h2>React</h2>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="Ex" class="section">
+    <div class="container">
+      <header class="section-header">
+        <h1>Experience</h1>
+        <p>However, very recently I have come to an understanding that complex music is not necessarily pleasant.</p>
+      </header>
+      <div class="resume">
+        <div class="flex">
+          <div class="resume-title">
+            <h2 class="underline-nh">MChampion Enterprises</h2>
+            <div class="subtitle">2017 - Current</div>
+          </div>
+          <div class="resume-description">
+            <h3>Web Content Manager</h3>
+            <p>Currently overseeing the content presented on two company websites. I create, write and manage content to help
+              achieve business goals. I'm directly responsible for creating, editing, posting, updating, and cleaning up
+              outdated content.
+            </p>
+            <ul>
+              <li>MChampion Enterprises LLC Website</li>
+              <li>ER Nursing Solutions LLC Website</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="Work" class="section-bg">
+    <header class="section-header">
+      <h1>Portfolio</h1>
+      <p>So I don't really have a clear plan, in terms of music, as to where I want to head in the future.</p>
+    </header>
+    <div class="container">
+      <div class="flex wrap portfolio">
+        <div class="card">
+          <img src="assets/img/yelpcamp.png" alt="">
+          <h2>YelpCamp V2</h2>
+        </div>
+        <div class="card">
+          <img src="assets/img/travel.png" alt="">
+          <h2>Mountain Travel</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Reach" class="section">
+    <header class="section-header">
+      <h1>Contact</h1>
+      <p>However there is something about it that will remain in your mind for a long, long time. Including
+        <a href="https://twitter.com/simbaxo">Twitter</a> and
+        <a href="https://github.com/simbaxo">GitHub</a>.</p>
+    </header>
+    <div class="form-container">
+      <form action="https://formspree.io/andresmena01@gmail.com">
+        <label for="name">Name</label>
+        <input type="text" name="name">
+        <label for="email">Email Address</label>
+        <input type="email" name="_replyto">
+        <label for="message">Message</label>
+        <textarea name="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="flex sb">
+        <div class="about">
+          <h1>
+            <span class="primary">Andres</span>
+            <b class="secondary">Mena</b>
+          </h1>
+          <p>
+            I currently reside in Alexandria, VA. In my spare time, I enjoy binge watching netflix shows, rooting for every professional
+            sports team in the Washington DC area, playing multipler games online with friends, and occasionally playing
+            pick up basketball.
+          </p>
+
+        </div>
+        <div class="connect">
+          <h1>Connect with me</h1>
+          <p>You can find me here, there, and everywhere.</p>
+          <div class="social-icons">
+            <a href="https://twitter.com/simbaxo" target="_blank">
+              <i class="fa fa-twitter fa-2x"></i>
+            </a>
+            <a href="https://github.com/simbaxo" target="_blank">
+              <i class="fa fa-github fa-2x"></i>
+            </a>
+            <a href="https://stackoverflow.com/users/9065019/andres-mena" target="_blank">
+              <i class="fa fa-stack-overflow fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/andresmena/" target="_blank">
+              <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="footer-bottom">
+    <div class="container">
+      <p>
+        &copy; 2018 Andres Mena. All rights reserved.
+
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.8.4/prism.min.js"></script>
 </body>
 
 </html>
